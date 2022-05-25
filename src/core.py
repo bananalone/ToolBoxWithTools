@@ -7,7 +7,7 @@ from PluginsManager import PluginsManager
 class Core:
     DESC = PluginsManager._DESC
     LOADED = PluginsManager._LOADED
-    _PLUGIN_TEMPLATE_ROOT = 'plugin_template'
+    _PLUGIN_TEMPLATE_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'plugin_template')
     
     def __init__(self, table: PluginsTable) -> None:
         self._table = table
