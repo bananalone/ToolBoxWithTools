@@ -79,7 +79,7 @@ class App:
         for name in loadedPlugins:
             print(">>> Start run {} <<<\n".format(name))
             core.run(name)
-            print("\n>>> {} finished <<<1".format(name))
+            print("\n>>> {} finished <<<".format(name))
             
     def _install_event(self):
         path = input("Enter path of the plugin >>> ")

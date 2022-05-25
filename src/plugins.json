@@ -1,1 +1,6 @@
-{}
+{
+  "XorEncryption": {
+    "loaded": false,
+    "description": "Use XOR operation to encrypt a file or files in folder"
+  }
+}
