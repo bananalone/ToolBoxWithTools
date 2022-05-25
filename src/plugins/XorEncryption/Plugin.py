@@ -19,7 +19,7 @@ class Plugin:
         user_input = input("Enter path of a file or folder >>> ")
         self._path = user_input if len(user_input) else self._path
         if not os.path.exists(self._path):
-            raise FileNotFoundError(self._path)
+            raise Exception("{} not found".format(self._path))
         user_input = input("Enter your key >>> ")
         self._key = user_input if len(user_input) else self._key
         
@@ -49,6 +49,8 @@ class Plugin:
         '''
             run
         '''
+        if not os.path.exists(self._path):
+            raise Exception("Setup path before run")
         print("Use {key} encrypt {path}".format(key = self._key, path = self._path))
         self._encrypt(self._path)
     

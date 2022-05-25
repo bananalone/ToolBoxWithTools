@@ -8,7 +8,12 @@
 ```
 
 # 前言  
-ToolBox是一个用于管理python脚本的CLI工具，采用插件式管理方式，功能包括对脚本安装、删除、装载、卸载，创建脚本模板，设置脚本运行参数以及运行所有装载的脚本。
+ToolBoxWithTools是包含了自用python工具的工具盒子，长期更新
+
+纯净版ToolBox请前往 [https://github.com/bananalone/ToolBox](https://github.com/bananalone/ToolBox) 获取
+
+# 现有工具
+1. XorEncryption &nbsp;&nbsp; 使用异或运算对文件或者目录下的所有文件加密解密
 
 # 架构
 ![architecture](./assets/architecture.jpg)  
