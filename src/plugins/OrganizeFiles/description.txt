@@ -1,0 +1,1 @@
+Organize files according to file suffixes

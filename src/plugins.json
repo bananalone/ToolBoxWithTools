@@ -1,4 +1,8 @@
 {
+  "OrganizeFiles": {
+    "loaded": false,
+    "description": "Organize files according to file suffixes"
+  },
   "XorEncryption": {
     "loaded": false,
     "description": "Use XOR operation to encrypt a file or files in folder"
