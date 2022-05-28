@@ -47,11 +47,8 @@ class PluginsManager:
             raise Exception("{} is not installed".format(name))
         if name not in self.loadedPlugins:
             pluginPkg = '.'.join([os.path.basename(PluginsManager._PLUGIN_ROOT), name])
-            try:
-                PluginCls = importlib.import_module(".Plugin", package=pluginPkg).Plugin
-                instance = PluginCls()
-            except Exception:
-                instance = None
+            PluginCls = importlib.import_module(".Plugin", package=pluginPkg).Plugin
+            instance = PluginCls()
             self.loadedPlugins[name] = {}
             self.loadedPlugins[name] = instance
             self.plugins[name][PluginsManager._LOADED] = True
