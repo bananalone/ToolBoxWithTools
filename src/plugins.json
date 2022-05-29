@@ -1,4 +1,8 @@
 {
+  "FuzzySearch": {
+    "loaded": false,
+    "description": "Fuzzy search for files in the specified directory"
+  },
   "OrganizeFiles": {
     "loaded": false,
     "description": "Organize files according to file suffixes"
