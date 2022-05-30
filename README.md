@@ -16,6 +16,7 @@ ToolBoxWithTools是包含了自用python工具的工具盒子，长期更新
 1. XorEncryption &nbsp;&nbsp; 使用异或运算对文件或者目录下的所有文件加密解密
 2. OrganizeFiles &nbsp;&nbsp; 把文件夹里所有文件或子文件夹按照后缀进行分类整理，复制到新目录下，新目录不能存在
 3. FuzzySearch &nbsp;&nbsp; 按照模式查找指定目录下的文件，采用编辑距离（莱温斯坦距离）模糊匹配
+4. ImageToAscii &nbsp;&nbsp; 将图片转换为ASCII码，并保存为txt文件
 
 # 架构
 ![architecture](./assets/architecture.jpg)  

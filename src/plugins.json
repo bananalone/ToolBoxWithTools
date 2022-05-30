@@ -3,6 +3,10 @@
     "loaded": false,
     "description": "Fuzzy search for files in the specified directory"
   },
+  "ImageToAscii": {
+    "loaded": false,
+    "description": "Convert image to ASCII"
+  },
   "OrganizeFiles": {
     "loaded": false,
     "description": "Organize files according to file suffixes"
