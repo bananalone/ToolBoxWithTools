@@ -11,6 +11,10 @@
     "loaded": false,
     "description": "Organize files according to file suffixes"
   },
+  "TextToImage": {
+    "loaded": false,
+    "description": "Convert text to image"
+  },
   "XorEncryption": {
     "loaded": false,
     "description": "Use XOR operation to encrypt a file or files in folder"
