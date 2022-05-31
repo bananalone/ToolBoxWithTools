@@ -8,7 +8,7 @@ class PluginsManager:
     _LOADED = "loaded"
     
     # path
-    _PLUGIN_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'plugins') 
+    _PLUGIN_ROOT = os.path.join(os.path.dirname(__file__), 'plugins') 
     
     def __init__(self, init_plugins: dict = {}) -> None:
         if not isinstance(init_plugins, dict):
