@@ -1,4 +1,8 @@
 {
+  "AutoBot": {
+    "loaded": false,
+    "description": "Execute orderly according to the simple script"
+  },
   "FuzzySearch": {
     "loaded": false,
     "description": "Fuzzy search for files in the specified directory"
