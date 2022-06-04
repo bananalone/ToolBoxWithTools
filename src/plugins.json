@@ -19,6 +19,10 @@
     "loaded": false,
     "description": "Convert text to image"
   },
+  "VideoDownloader": {
+    "loaded": false,
+    "description": "Download video by url"
+  },
   "XorEncryption": {
     "loaded": false,
     "description": "Use XOR operation to encrypt a file or files in folder"
