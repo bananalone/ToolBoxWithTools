@@ -20,6 +20,7 @@ ToolBoxWithTools是包含了自用python工具的工具盒子，长期更新
 5. TextToImage &nbsp;&nbsp; 将TXT文件里的文本转换为图片，字体为宋体，支持设置字体大小、字体颜色和背景颜色
 6. AutoBot &nbsp;&nbsp; 按照脚本自动执行鼠标点击，键盘输入等操作
 7. VideoDownloader &nbsp;&nbsp; 根据URL下载视频，支持哔哩哔哩
+8. FileDiffFinder &nbsp;&nbsp; 输出两个文件的不同地方，红色代表删除，绿色代表增加
 
 # 架构
 ![architecture](./assets/architecture.jpg)  

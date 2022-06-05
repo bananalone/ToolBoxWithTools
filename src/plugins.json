@@ -3,6 +3,10 @@
     "loaded": false,
     "description": "Execute orderly according to the simple script"
   },
+  "FileDiffFinder": {
+    "loaded": false,
+    "description": "Print difference between the first file and the second file"
+  },
   "FuzzySearch": {
     "loaded": false,
     "description": "Fuzzy search for files in the specified directory"
