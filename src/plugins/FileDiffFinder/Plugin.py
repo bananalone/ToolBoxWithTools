@@ -2,12 +2,13 @@
     plugin template, implement setup and run method, this is entry point of tool box
 '''
 import os
-from .diff import listOps, fmtText, fmtTextWithOps
+from .DiffFinder import DiffFinder
 
 class Plugin:
     def __init__(self) -> None:
         self.first_path = None
         self.second_path = None
+        self.diffFinder = DiffFinder()
 
     def setup(self):
         user_input = input("Enter path to first file >>> ")
@@ -24,16 +25,8 @@ class Plugin:
             former = f.read()
         with open(self.second_path, 'r', encoding='utf-8') as f:
             latter = f.read()
-        ops = listOps(former, latter)
-        print('First File >>>')
-        print(fmtText(former))
-        print("<<< END First File\n")
-        print('Second File >>> ')
-        print(fmtText(latter))
-        print("<<< END Second File\n")
-        print('Difference >>> ')
-        print(fmtTextWithOps(former, ops))
-        print("<<< END Difference")
+        self.diffFinder.analyse(former, latter)
+        print(self.diffFinder.format())
 
 
 if __name__ == '__main__':

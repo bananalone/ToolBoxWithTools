@@ -4,7 +4,7 @@
     "description": "Execute orderly according to the simple script"
   },
   "FileDiffFinder": {
-    "loaded": false,
+    "loaded": true,
     "description": "Print difference between the first file and the second file"
   },
   "FuzzySearch": {
