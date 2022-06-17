@@ -1,34 +1,34 @@
 {
-  "AutoBot": {
+  "VideoDownloader": {
     "loaded": false,
-    "description": "Execute orderly according to the simple script"
-  },
-  "FileDiffFinder": {
-    "loaded": true,
-    "description": "Print difference between the first file and the second file"
-  },
-  "FuzzySearch": {
-    "loaded": false,
-    "description": "Fuzzy search for files in the specified directory"
-  },
-  "ImageToAscii": {
-    "loaded": false,
-    "description": "Convert image to ASCII"
+    "description": "Download video by url"
   },
   "OrganizeFiles": {
     "loaded": false,
     "description": "Organize files according to file suffixes"
   },
-  "TextToImage": {
+  "AutoBot": {
     "loaded": false,
-    "description": "Convert text to image"
+    "description": "Execute orderly according to the simple script"
   },
-  "VideoDownloader": {
+  "FuzzySearch": {
     "loaded": false,
-    "description": "Download video by url"
+    "description": "Fuzzy search for files in the specified directory"
   },
   "XorEncryption": {
     "loaded": false,
     "description": "Use XOR operation to encrypt a file or files in folder"
+  },
+  "FileDiffFinder": {
+    "loaded": false,
+    "description": "Print difference between the first file and the second file"
+  },
+  "ImageToAscii": {
+    "loaded": false,
+    "description": "Convert image to ASCII"
+  },
+  "TextToImage": {
+    "loaded": false,
+    "description": "Convert text to image"
   }
 }

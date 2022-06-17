@@ -6,7 +6,7 @@ from tqdm import tqdm
 
 
 def merge_audio_video(audio: str, video: str, output: str):
-    cmd = f'ffmpeg -i "{audio}" -i "{video}" "{output}"'
+    cmd = f'ffmpeg -i "{audio}" -i "{video}" -c:v copy -c:a aac -strict experimental "{output}"'
     subprocess.run(cmd, shell=True)
     
     
